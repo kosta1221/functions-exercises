@@ -14,17 +14,17 @@ describe("Question 1", () => {
     const expOutput = "naztiN";
     const output = myReverse(input);
 
-    expect(expOutput).toBe(output);
+    expect(output).toBe(expOutput);
   });
 });
 
 describe("Question 2", () => {
   it("Should get all combinations of a string", () => {
     const input = "dog";
-    const expOutput = ["d", "do", "dog", "o", "og", "og", "g"];
+    const expOutput = ["d", "do", "dog", "o", "og", "g"];
     const output = allCombinations(input);
 
-    expect(expOutput).toEqual(output);
+    expect(output).toEqual(expOutput);
   });
 });
 
@@ -34,7 +34,7 @@ describe("Question 3", () => {
     const expOutput = "I Am A Cyber4s Student";
     const output = allCaps(input);
 
-    expect(expOutput).toBe(output);
+    expect(output).toBe(expOutput);
   });
 });
 
@@ -47,7 +47,7 @@ describe("Question 4", () => {
     const expOutput = Math.pow(input[0], input[1]);
     const output = myPower(input[0], input[1]);
 
-    expect(expOutput).toBe(output);
+    expect(output).toBe(expOutput);
   });
 });
 
@@ -57,7 +57,7 @@ describe("Question 5", () => {
     const expOutput = "n";
     const output = getFirstNotRepeating(input);
 
-    expect(expOutput).toBe(output);
+    expect(output).toBe(expOutput);
   });
 });
 

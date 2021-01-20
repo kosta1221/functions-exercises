@@ -40,11 +40,11 @@ To run the tests type `npm test` and press enter.
 
 ### Question 1
 
-Write a JavaScript function that reverse a number.
+Write a JavaScript function that reverse a string.
 
-`Example x = 32243;`
+`Example x = "Cyber4s;`
 
-`Expected Output : 34223`
+`Expected Output : s4rebyC`
 <br/>
 <br/>
 
